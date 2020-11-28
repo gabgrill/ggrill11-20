@@ -1,12 +1,22 @@
 body{
-	text-align: center;
+	background-color: rgb(246, 255, 235);
 }
+
+a:link, a:visited{
+	color: #000000;
+	text-decoration: none;
+	}
+a:hover, a:active{
+	color: #0047ff7d;
+	text-decoration: none;
+	}
 
 .image_container{
 	position: relative;
 	display: block;
 	width: 100%;
 	height: 100vh;
+	z-index: 1;
 }
 
 .image_object{
@@ -20,13 +30,44 @@ body{
 	object-fit: cover;
 }
 
-.titles_bar{
+.title_label{
+	position: absolute;
+	display: inline-block;
+	bottom: 0;
+	text-align: center;
+	padding: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+.page_name{
+	font-size: 20px;
 	position: fixed;
+	top:0;
 	display: block;
-	width:12rem;
-	top: 0;
-	left: 0;
-	text-align: left;
-	padding-top: 2rem;
-	padding-left: 1rem;
+	width: 100%
+	background-color: rgb(246, 255, 235);
+	padding: .5rem;
+}
+
+.link_menu{
+	position: fixed;
+	top: 2rem;
+	display: block;
+	width: 100%
+	background-color: rgb(246, 255, 235);
+	line-height: 2rem;
+	padding: .5rem;
+	z-index: 10;
+}
+
+.drawings_link{
+	position: fixed;
+	bottom: : 7rem;
+	right: 6rem;
+	display: inline-block;
+	background-color: rgb(246, 255, 235);
+	line-height: 2rem;
+	padding: .5rem;
+	z-index: 10;
 }
