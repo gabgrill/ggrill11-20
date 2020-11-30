@@ -1,5 +1,5 @@
 body{
-	background-color: rgb(246, 255, 235);
+	background-color: #ebf0ff;
 }
 
 a:link, a:visited{
@@ -81,7 +81,6 @@ a:hover, a:active{
 	bottom: : 7rem;
 	right: 6rem;
 	display: inline-block;
-	background-color: rgb(246, 255, 235);
 	line-height: 2rem;
 	padding: .5rem;
 	z-index: 10;
