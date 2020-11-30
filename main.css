@@ -7,7 +7,7 @@ a:link, a:visited{
 	text-decoration: none;
 	}
 a:hover, a:active{
-	color: #0047ff7d;
+	color: #91d9f4;
 	text-decoration: none;
 	}
 
@@ -15,29 +15,33 @@ a:hover, a:active{
 	position: relative;
 	display: block;
 	width: 100%;
-	height: 100vh;
+	height: 99vh;
 	z-index: 1;
 }
 
 .image_object{
 	position: absolute;
-	display: block;
+	display: inline-block;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: calc(100% - 25rem);
 	max-height: calc(100% - 6rem);
 	object-fit: cover;
+	margin-bottom: : 0;
+	padding-bottom: 0;
 }
 
 .title_label{
 	position: absolute;
 	display: inline-block;
-	bottom: 0;
 	text-align: center;
 	padding: 0;
+	bottom: 1.5rem;
 	left: 50%;
 	transform: translate(-50%, 0);
+	margin-top: 0;
+	padding-top: 0;
 }
 
 .page_name{
