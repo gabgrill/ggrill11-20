@@ -44,14 +44,25 @@ a:hover, a:active{
 	padding-top: 0;
 }
 
+.page_title{
+	height: 3rem;
+	width: 16rem;
+	position: fixed;
+	display: inline-block;
+	top: 0;
+  	left: 0;
+  	margin: .5rem;
+	z-index: 100;
+	opacity: 0;
+}
+
 .page_name{
 	font-size: 20px;
 	position: fixed;
 	top:0;
 	display: block;
-	width: 100%
-	background-color: rgb(246, 255, 235);
 	padding: .5rem;
+	opacity: 1;
 }
 
 .link_menu{
