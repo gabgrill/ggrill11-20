@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 464.94 84.63" style="enable-background:new 0 0 464.94 84.63;" xml:space="preserve">
+	 viewBox="0 0 464.9 84.6" style="enable-background:new 0 0 464.9 84.6;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;}
-	.st1{fill:#D4E8C2;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st1{fill:#D4E8C2;}
 	.st2{font-family:'AmericanTypewriter';}
-	.st3{font-size:69.5192px;}
+	.st3{font-size:69.5158px;}
+	.st4{fill:#F6FFEB;stroke:#000000;stroke-width:2.9343;stroke-miterlimit:9.781;}
 </style>
-<rect x="1.5" y="12.07" class="st0" width="463.44" height="62.23"/>
-<text transform="matrix(0.9781 0 -0.2079 0.9781 -0.2055 63.3132)" class="st1 st2 st3">Gabriella Grill</text>
+<rect x="1.5" y="12.1" class="st0" width="463.4" height="62.2"/>
+<text transform="matrix(0.9781 0 -0.2079 0.9781 -0.2051 63.3133)" class="st1 st2 st3">Gabriella Grill</text>
+<text transform="matrix(0.9781 0 -0.2079 0.9781 -0.2051 63.3133)" class="st4 st2 st3">Gabriella Grill</text>
 </svg>
