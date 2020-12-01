@@ -1,5 +1,5 @@
 body{
-	background-color: #ebf0ff;
+	background-color: #d4e8c2;
 }
 
 a:link, a:visited{
@@ -84,4 +84,26 @@ a:hover, a:active{
 	line-height: 2rem;
 	padding: .5rem;
 	z-index: 10;
+}
+
+.up_arrow{
+	left: 0;
+	height: 6rem;
+	width: 6rem;
+	margin: 3rem;
+	top: 50%;
+	transform: translate(0, -50%);
+	display: inline-block;
+	position: absolute;
+}
+
+.down_arrow{
+	right: 0;
+	height: 6rem;
+	width: 6rem;
+	margin: 3rem;
+	top: 50%;
+	transform: translate(0, -50%);
+	display: inline-block;
+	position: absolute;
 }
