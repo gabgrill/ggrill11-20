@@ -126,3 +126,15 @@ h1{
 .right_arrow_hover:hover, .right_arrow_hover:active{
 	opacity: 1;
 }
+
+.title_label{
+	position: absolute;
+	display: inline-block;
+	text-align: center;
+	padding: 0;
+	bottom: 1.5rem;
+	left: 50%;
+	transform: translate(-50%, 0);
+	margin-top: 0;
+	padding-top: 0;
+}
