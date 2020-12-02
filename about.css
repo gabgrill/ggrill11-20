@@ -32,14 +32,14 @@ body{
 }
 
 .text{
-	width: 80%;
+	width: 50%;
 	height: 80%
 	margin: 12rem;
 	position: relative;
 	display: block;
-	top: 12rem;
+	top: 8rem;
 	left: 50%;
-	transform: translate(-50%, 0);
+	transform: translate(-70%, 0);
 }
 
 .page_title{
@@ -53,5 +53,61 @@ body{
   	margin: 0;
   	padding: .25rem;
 	z-index: 100;
+	opacity: 1;
+}
+
+.allofus_link{
+	display: block;
+	position: fixed;
+	bottom: 9rem;
+	left: 9rem;
+	height: 4rem;
+	width: 7rem;
+	z-index: 1;
+}
+
+.allofus_link_hover{
+	display: block;
+	position: fixed;
+	bottom: 9rem;
+	left: 9rem;
+	height: 4rem;
+	width: 7rem;
+	opacity: 0;
+	z-index: 2;
+}
+
+.allofus_link_hover:hover, .allofus_link_hover:active{
+	opacity: 1;
+}
+
+.instagram_link{
+	right: 16rem;
+	height: 3rem;
+	width: 3rem;
+	margin: 0;
+	padding: 1rem;
+	padding-bottom: 0;
+	bottom: 14rem;
+	display: inline-block;
+	position: fixed;
+	z-index: 1;
+}
+
+.instagram_link_hover{
+	right: 16rem;
+	height: 3rem;
+	width: 3rem;
+	margin: 0;
+	padding: 1rem;
+	padding-bottom: 0;
+	bottom: 14rem;
+	display: inline-block;
+	position: fixed;
+	opacity: 0;
+	z-index: 2;
+}
+
+.instagram_link_hover:hover, .instagram_link_hover:active{
 	opacity: 1;
 }
