@@ -44,28 +44,15 @@ a:hover, a:active{
 	padding-top: 0;
 }
 
-.page_title_container{
-	height: 4rem;
-	top:0;
-	width: calc(100% - 25rem);
-	left: 50%;
-	transform: translate(-50%, 0);
-	background-color: #d4e8c2;
-	display: inline-block;
-	position: fixed; 
-	margin: 0;
-	z-index: 1000;
-}
-
 .page_title{
-	height: 8rem;
-	width: 26rem;
-	position: absolute;
+	height: 10rem;
+	width: 14rem;
+	position: fixed;
 	display: inline-block;
 	top: 0;
-  	left: 50%;
-  	transform: translate(-44%, -20%);
-  	margin: 0;
+  	left: 0;
+  	margin: 1rem;
+  	margin-top: 0;
   	padding: 0;
 	z-index: 100;
 }
@@ -77,7 +64,7 @@ a:hover, a:active{
 	display: inline-block;
 	line-height: 2rem;
 	padding: .5rem;
-	z-index: 1000;
+	z-index: 10;
 }
 
 .up_arrow{
