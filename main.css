@@ -47,7 +47,7 @@ a:hover, a:active{
 .page_title_container{
 	height: 4rem;
 	top:0;
-	width: 80%;
+	width: calc(100% - 25rem);
 	left: 50%;
 	transform: translate(-50%, 0);
 	background-color: #d4e8c2;

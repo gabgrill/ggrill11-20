@@ -31,36 +31,24 @@ body{
 	opacity: 1;
 }
 
-.text{
-	width: 50%;
-	height: 80%
-	margin: 12rem;
-	position: relative;
-	display: block;
-	top: 8rem;
-	left: 50%;
-	transform: translate(-70%, 0);
-}
-
 .page_title{
-	height: 5rem;
-	width: 15rem;
+	height: 15rem;
+	width: 50rem;
 	position: fixed;
 	display: block;
-	top: 0;
-  	left: 50%;
-  	transform: translate(-50%, 0);
+	top: -2rem;
+  	right: -3rem;
   	margin: 0;
-  	padding: .25rem;
-	z-index: 100;
+  	padding: 0;
+	z-index: 1;
 	opacity: 1;
 }
 
 .allofus_link{
 	display: block;
-	position: fixed;
-	bottom: 9rem;
-	left: 9rem;
+	position: absolute;
+	bottom: 5rem;
+	left: 0;
 	height: 4rem;
 	width: 7rem;
 	z-index: 1;
@@ -68,9 +56,9 @@ body{
 
 .allofus_link_hover{
 	display: block;
-	position: fixed;
-	bottom: 9rem;
-	left: 9rem;
+	position: absolute;
+	bottom: 5rem;
+	left: 0;
 	height: 4rem;
 	width: 7rem;
 	opacity: 0;
@@ -82,32 +70,85 @@ body{
 }
 
 .instagram_link{
-	right: 16rem;
+	right: 50%;
+	transform: translate(50%, 0);
 	height: 3rem;
 	width: 3rem;
-	margin: 0;
-	padding: 1rem;
-	padding-bottom: 0;
-	bottom: 14rem;
-	display: inline-block;
-	position: fixed;
+	bottom: 6.5rem;
+	display: block;
+	position: absolute;
 	z-index: 1;
 }
 
 .instagram_link_hover{
-	right: 16rem;
+	right: 50%;
+	transform: translate(50%, 0);
 	height: 3rem;
 	width: 3rem;
-	margin: 0;
-	padding: 1rem;
-	padding-bottom: 0;
-	bottom: 14rem;
-	display: inline-block;
-	position: fixed;
+	bottom: 6.5rem;
+	display: block;
+	position: absolute;
 	opacity: 0;
 	z-index: 2;
 }
 
 .instagram_link_hover:hover, .instagram_link_hover:active{
 	opacity: 1;
+}
+
+
+.text{
+	position: absolute;
+	display: block;
+	margin: 3rem;
+	z-index: 3;
+	top: 25%;
+	transform: translate(0, -25%);
+}
+
+.textbox_container{
+	left: 40%;
+	transform: translate(-40%, 0);
+	top: 12rem;
+	height: 30rem;
+	width:65rem;
+	display: block;
+	position: relative;
+	background-color: #d4e8c2;
+	border: 3px solid;
+}
+
+.cv_link{
+	right: 0;
+	height: 3rem;
+	width: 3rem;
+	bottom: 5rem;
+	display: block;
+	position: absolute;
+	z-index: 1;
+}
+
+.cv_hover{
+	right: 0;
+	height: 3rem;
+	width: 3rem;
+	bottom: 5rem;
+	display: block;
+	position: absolute;
+	opacity: 0;
+	z-index: 2;
+}
+
+.cv_hover:hover, .cv_hover:active{
+	opacity: 1;
+}
+
+.external_links{
+	width: 30rem;
+	height: 3rem;
+	bottom: 2rem;
+	display: block;
+	position: fixed;
+	left: 50%;
+	transform: translate(-65%, 0);
 }
