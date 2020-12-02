@@ -45,36 +45,16 @@ a:hover, a:active{
 }
 
 .page_title{
-	height: 3rem;
-	width: 12rem;
+	height: 8rem;
+	width: 26rem;
 	position: fixed;
-	display: inline-block;
+	display: block;
 	top: 0;
-  	left: 0;
+  	left: 50%;
+  	transform: translate(-44%, 0);
   	margin: 0;
   	padding: .25rem;
 	z-index: 100;
-	opacity: 1;
-}
-
-.page_name{
-	font-size: 20px;
-	position: fixed;
-	top:0;
-	display: block;
-	padding: .5rem;
-	opacity: 0;
-}
-
-.link_menu{
-	position: fixed;
-	top: 2rem;
-	display: block;
-	width: 100%
-	background-color: rgb(246, 255, 235);
-	line-height: 2rem;
-	padding: .5rem;
-	z-index: 10;
 }
 
 .drawings_link{
@@ -142,5 +122,35 @@ a:hover, a:active{
 }
 
 .down_arrow_hover:hover, .down_arrow_hover:active{
+	opacity: 1;
+}
+
+
+.about_link{
+	left: 0;
+	height: 3rem;
+	width: 5.5rem;
+	margin-top: 0;
+	padding: 1rem;
+	top: 7rem;
+	display: inline-block;
+	position: fixed;
+	z-index: 1;
+}
+
+.about_link_hover{
+	left: 0;
+	height: 3rem;
+	width: 5.5rem;
+	margin-top: 0;
+	padding: 1rem;
+	top: 7rem;
+	display: inline-block;
+	position: fixed;
+	opacity: 0;
+	z-index: 2;
+}
+
+.about_link_hover:hover, .about_link_hover:active{
 	opacity: 1;
 }
