@@ -1,0 +1,30 @@
+body{
+	background-color: #f3ff8c;
+}
+
+
+.home_nav_container{
+	height: 3rem;
+	width: 3rem;
+	position: fixed;
+	display: inline-block;
+	top: 0;
+  	left: 0;
+  	margin: 5rem;
+  	margin-top: 3rem;
+	z-index: 100;
+}
+
+.home_nav_hover{
+	height: 3rem;
+	width: 3rem;
+	position: fixed;
+	display: inline-block;
+	top: 0;
+  	left: 0;
+  	margin: 5rem;
+  	margin-top: 3rem;
+	z-index: 101;
+	opacity: 0;
+}
+
