@@ -28,15 +28,11 @@ body{
 	opacity: 0;
 }
 
-.drawing_img{
-	position: static;
-	left: 0;
-	max-height: 70vh;
-	width: 50%;
-}
-
-.drawing_img_right{
-	position: static;
-	right: 0;
-	width: 50%;
+.brooch_img{
+	position: fixed;
+	display: block;
+	left: 50%;
+	transform: translate(-50%, 0);
+	width: 70%;
+	margin: 3rem;
 }
