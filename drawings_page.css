@@ -30,7 +30,14 @@ body{
 
 .drawing_img{
 	position: static;
-	left: 50%;
+	left: 0;
 	max-height: 70vh;
-	width: 70vh;
+	width: 50%;
+}
+
+.drawing_img_right{
+	position: static;
+	right: 0;
+	max-height: 70vh;
+	width: 50%;
 }
