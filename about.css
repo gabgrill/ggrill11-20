@@ -3,6 +3,22 @@ body{
 	font-family: Texturina;
 }
 
+@font-face{
+	font-family: Aileron-UltraLight;
+	src: url(aileron_0102/Aileron-UltraLight.otf);
+	font-weight: normal;
+}
+
+a:link, a:visited{
+	color: #000000;
+	text-decoration: none;
+	}
+a:hover, a:active{
+	color: #91d9f4;
+	text-decoration: none;
+	}
+
+
 .home_nav_container{
 	height: 3rem;
 	width: 3rem;
@@ -33,39 +49,16 @@ body{
 }
 
 .page_title{
-	height: 15rem;
-	width: 50rem;
 	position: fixed;
 	display: block;
-	top: -2rem;
-  	right: -3rem;
+	top: 0;
+  	left: 50%;
+  	transform: translate(-50%, 0);
   	margin: 0;
-  	padding: 0;
-	z-index: 1;
-	opacity: 1;
-}
-
-.allofus_link{
-	height: 3rem;
-	width: 11rem;
-	right: 9rem;
-	position: absolute;
-	z-index: 1;
-	display: inline-block;
-}
-
-.allofus_link_hover{
-	height: 3rem;
-	width: 11rem;
-	right: 9rem;
-	position: absolute;
-	opacity: 0;
-	z-index: 2;
-	display: inline-block;
-}
-
-.allofus_link_hover:hover, .allofus_link_hover:active{
-	opacity: 1;
+  	padding: 2rem;
+	font-family: Aileron-UltraLight;
+	font-size: 100px;
+	letter-spacing: -2px;
 }
 
 .instagram_link{
@@ -74,7 +67,8 @@ body{
 	position: absolute;
 	z-index: 1;
 	display: inline-block;
-	right: 5rem;
+	right: 9rem;
+	bottom: 4rem;
 }
 
 .instagram_link_hover{
@@ -84,7 +78,8 @@ body{
 	opacity: 0;
 	z-index: 2;
 	display: inline-block;
-	right: 5rem;
+	right: 9rem;
+	bottom: 4rem;
 }
 
 .instagram_link_hover:hover, .instagram_link_hover:active{
@@ -101,47 +96,29 @@ body{
 }
 
 .textbox_container{
-	left: 40%;
-	transform: translate(-40%, 0);
+	left: 50%;
+	transform: translate(-50%, 0);
 	top: 12rem;
-	height: 30rem;
+	height: 100%;
 	width:65rem;
 	display: block;
 	position: relative;
-	background-color: #d4e8c2;
-	border: 3px solid;
 }
 
 .cv_link{
-	height: 3rem;
-	width: 4rem;
-	right: 0;
-	position: absolute;
-	z-index: 1;
-	display: block;
+	font-family: Aileron-UltraLight;
+	font-size: 40px;
+	letter-spacing: -2px;
+	position: fixed;
+	bottom: 4rem;
+	right: 3rem;
 }
 
-.cv_hover{
-	height: 3rem;
-	width: 4rem;
-	right: 0;
-	position: absolute;
-	opacity: 0;
-	z-index: 2;
-	display: block;
-}
-
-.cv_hover:hover, .cv_hover:active{
-	opacity: 1;
-}
-
-.external_links{
-	width: 30rem;
-	height: 3rem;
-	bottom: 1rem;
-	display: block;
-	position: absolute;
-	margin: .5rem;
-	margin-bottom: 0;
-	right: 0;
+.allofus_link{
+	font-family: Aileron-UltraLight;
+	font-size: 40px;
+	letter-spacing: -2px;
+	position: fixed;
+	bottom: 4rem;
+	right: 15rem;
 }
