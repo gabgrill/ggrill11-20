@@ -203,4 +203,10 @@ h1{
 	  	transform: translate(-50%, 0);
 	  	margin: 2rem;
 	}
+	.page_label{
+		font-size: 20px;
+	}
+	h1{
+		font-size: 25px;
+	}
 }
