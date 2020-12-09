@@ -68,7 +68,7 @@ a:hover, a:active{
 .instagram_link{
 	height: 3rem;
 	width: 3rem;
-	position: absolute;
+	position: fixed;
 	z-index: 1;
 	display: inline-block;
 	right: 9rem;
@@ -78,7 +78,7 @@ a:hover, a:active{
 .instagram_link_hover{
 	height: 3rem;
 	width: 3rem;
-	position: absolute;
+	position: fixed;
 	opacity: 0;
 	z-index: 2;
 	display: inline-block;
@@ -125,4 +125,64 @@ a:hover, a:active{
 	position: fixed;
 	bottom: 4rem;
 	right: 15rem;
+}
+
+@media(max-width: 961px){
+	.page_title{
+		font-size: 25px;
+		letter-spacing: -1px;
+	}
+	.home_nav_container{
+		height: 2rem;
+		width: 2rem;
+	  	margin: 2rem;
+	}
+
+	.home_nav_hover{
+		height: 2rem;
+		width: 2rem;
+	  	margin: 2rem;
+	}
+	.text{
+		position: absolute;
+		display: block;
+		margin: 3rem;
+		z-index: 3;
+		top: 0;
+	}
+
+	.textbox_container{
+		left: 5%;
+		transform: translate(0, 0);
+		top: 2.5rem;
+		height: 100%;
+		width: 90%;
+		display: block;
+		position: relative;
+	}
+	.cv_link{
+		font-size: 30px;
+		letter-spacing: -2px;
+		bottom: 7rem;
+		right: 1rem;
+	}
+	.instagram_link{
+		height: 2rem;
+		width: 2rem;
+		right: 1rem;
+		bottom: 4rem;
+	}
+
+	.instagram_link_hover{
+		height: 2rem;
+		width: 2rem;
+		right: 1rem;
+		bottom: 4rem;
+	}
+	.allofus_link{
+	font-size: 20px;
+	letter-spacing: -2px;
+	bottom: 1rem;
+	right: 1rem;
+}
 }
