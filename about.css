@@ -18,6 +18,10 @@ a:hover, a:active{
 	text-decoration: none;
 	}
 
+.contact{
+	text-align: center;
+	font-size: 18px; 
+}
 
 .home_nav_container{
 	height: 3rem;
@@ -58,7 +62,7 @@ a:hover, a:active{
   	padding: 2rem;
 	font-family: Aileron-UltraLight;
 	font-size: 100px;
-	letter-spacing: -2px;
+	letter-spacing: -8px;
 }
 
 .instagram_link{
