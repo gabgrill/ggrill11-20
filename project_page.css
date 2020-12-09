@@ -148,10 +148,25 @@ h1{
 		width:  100%;
 	}
 	.right_arrow_container{
-		bottom: 3rem;
+		bottom: 1rem;
+		right: 0;
 	}
 
 	.right_arrow_hover{
-		bottom: 3rem;
+		bottom: 1rem;
+		right: 0;
 	}
+	.left_arrow_container{
+		bottom: 1rem;
+		left: 0;
+		height: 2rem;
+		width: 2rem;
+	}
+
+	.left_arrow_hover{
+		bottom: 1rem;
+		left: 0;
+		height: 2rem;
+		width: 2rem;
+	}	
 }
