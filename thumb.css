@@ -1,5 +1,66 @@
 body{
 	background-color: #d4e8c2;
 	font-family: Texturina;
+	margin-left: 4rem;
+	margin-right: 4rem;
+	text-align: center;
 }
 
+@font-face{
+	font-family: Aileron-UltraLight;
+	src: url(aileron_0102/Aileron-UltraLight.otf);
+	font-weight: normal;
+}
+
+.title{
+	position: static;
+	display: block;
+	font-family: Aileron-UltraLight;
+	letter-spacing: -2px;
+	font-size: 30px;
+	padding: 2rem;
+	padding-bottom: 1rem;
+	top: 1rem;
+	text-align: center;
+	z-index: 1;
+}
+
+a:link, a:visited{
+	color: #000000;
+	text-decoration: none;
+}
+a:hover, a:active{
+	color: #91d9f4;
+	text-decoration: none;
+}
+
+.image_container{
+	position: relative;
+	display: inline-block;
+	width: 18rem;
+	height: 16rem;
+	padding: 1rem;
+	margin: .25rem;
+	z-index: 1;
+}
+
+.absolute_image{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -60%);
+	width: 18rem;
+	height: 13rem;
+	object-fit: cover;
+	box-sizing: border-box;
+}
+
+.absolute_text{
+	position: absolute;
+	bottom: 1.5rem;
+	width: 18rem;
+	box-sizing: border-box;
+	font-size: 15px;
+	left: 1rem;
+	line-height: 1rem;
+}
