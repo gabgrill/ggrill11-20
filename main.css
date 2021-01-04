@@ -151,6 +151,18 @@ a:hover, a:active{
 	font-weight: normal;
 }
 
+.thumb_option{
+	position: fixed;
+	display: block;
+	top: 0;
+	left: 14rem;
+	padding: 1rem;
+	font-family: Aileron-UltraLight;
+	font-size: 20px;
+	letter-spacing: -1px;
+	z-index: 1000;
+}
+
 @media (max-width: 885px){
 	.up_arrow{
 		opacity: 0;
