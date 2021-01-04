@@ -3,6 +3,30 @@ body{
 	font-family: Texturina;
 }
 
+@font-face{
+	font-family: Aileron-UltraLight;
+	src: url(aileron_0102/Aileron-UltraLight.otf);
+	font-weight: normal;
+}
+
+.name_title{
+	height: 10rem;
+	width: 14rem;
+	text-align: center;
+	font-family: Aileron-UltraLight;
+	letter-spacing: -2px;
+	font-size: 38px;
+	position: fixed;
+	display: inline-block;
+	top: .75rem;
+  	right: 0;
+  	margin: 1rem;
+  	margin-right: 2rem;
+  	margin-top: 0;
+  	padding: 0;
+	z-index: 100;
+}
+
 .image_container{
 	position: relative;
 	display: block;

@@ -20,9 +20,25 @@ body{
 	font-size: 30px;
 	padding: 2rem;
 	padding-bottom: 1rem;
-	top: 1rem;
+	top: 1.5rem;
 	text-align: center;
 	z-index: 1;
+}
+
+.name_title{
+	height: 10rem;
+	width: 14rem;
+	font-family: Aileron-UltraLight;
+	letter-spacing: -2px;
+	font-size: 38px;
+	position: fixed;
+	display: inline-block;
+	top: .75rem;
+  	left: 0;
+  	margin: 1rem;
+  	margin-top: 0;
+  	padding: 0;
+	z-index: 100;
 }
 
 a:link, a:visited{
@@ -63,4 +79,32 @@ a:hover, a:active{
 	font-size: 15px;
 	left: 1rem;
 	line-height: 1rem;
+}
+
+.home_nav_container{
+	height: 3rem;
+	width: 3rem;
+	position: fixed;
+	display: inline-block;
+	top: 0;
+  	right: 0;
+  	margin: 2rem;
+	z-index: 100;
+}
+
+.home_nav_hover{
+	height: 3rem;
+	width: 3rem;
+	position: fixed;
+	display: inline-block;
+	top: 0;
+  	right: 0;
+  	margin: 2rem;
+  	margin-top: 2rem;
+	z-index: 101;
+	opacity: 0;
+}
+
+.home_nav_hover:hover, .home_nav_hover:active{
+	opacity: 1;
 }
