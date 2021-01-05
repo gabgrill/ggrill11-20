@@ -223,7 +223,7 @@ h1{
 	  	transform: translate(-50%, 0);
 	  	margin: 2rem;
 	  	margin-left: 0;
-	  	margin-top: 0;
+	  	margin-top: 1rem;
 	}
 	.home_nav_hover{
 		height: 2rem;
@@ -233,7 +233,7 @@ h1{
 	  	transform: translate(-50%, 0);
 	  	margin: 2rem;
 	  	margin-left: 0;
-	  	margin-top: 0;
+	  	margin-top: 1rem;
 	  	z-index: 1;
 	  	pointer-events: none;
 	}
@@ -248,13 +248,12 @@ h1{
 		width: 14rem;
 		text-align: center;
 		letter-spacing: -2px;
-		font-size: 20px;
+		font-size: 25px;
 		top: .75rem;
-	  	right: 0;
+	  	left: : 50%;
+	  	transform: translate(-50%, 0);
 	  	margin: 1rem;
-	  	margin-right: 2rem;
 	  	margin-top: 0;
 	  	padding: 0;
-		z-index: 100;
 	}
 }
