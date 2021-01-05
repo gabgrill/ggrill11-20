@@ -239,4 +239,18 @@ h1{
 	h1{
 		font-size: 25px;
 	}
+	.name_title{
+		height: 2rem;
+		width: 14rem;
+		text-align: center;
+		letter-spacing: -2px;
+		font-size: 20px;
+		top: .75rem;
+	  	right: 0;
+	  	margin: 1rem;
+	  	margin-right: 2rem;
+	  	margin-top: 0;
+	  	padding: 0;
+		z-index: 100;
+	}
 }
