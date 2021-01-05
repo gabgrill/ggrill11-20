@@ -216,6 +216,7 @@ a:hover, a:active{
 	}
 	.title_label{
 		bottom: 1.5rem;
+		width: 100%;
 	}
 	.page_title_mediaq{
 		opacity: 1;
