@@ -243,4 +243,8 @@ h1{
 	}
 	.name_title{
 		width: 20rem;
+	}
+	body{
+		margin-bottom: 6rem;
+	}
 }
