@@ -202,7 +202,7 @@ h1{
 	}
 	.left_arrow_container{
 		top: 0;
-		left: 70%;
+		right: 10rem;
 		transform: translate(0, 0);
 		height: 1.5rem;
 		width: 1.5rem;
@@ -222,8 +222,8 @@ h1{
 	.home_nav_container{
 		height: 2rem;
 		width: 2rem;
-		top: 0;
-	  	left: 10%;
+		bottom: 1rem;
+	  	left: 0;
 	  	transform: translate(0, 0);
 	  	margin: 2rem;
 	  	margin-left: 0;
@@ -234,7 +234,7 @@ h1{
 		height: 2rem;
 		width: 2rem;
 		top: 0;
-	  	left: 10%;
+	  	left: 0;
 	  	transform: translate(0, 0);
 	  	margin: 2rem;
 	  	margin-left: 0;
