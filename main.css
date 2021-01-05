@@ -230,6 +230,7 @@ a:hover, a:active{
 @media (max-width: 480px){
 	.thumb_option{
 		left: 100%;
-		transform: translate(-110%, 0);
+		transform: translate(-100%, 0);
+		padding-right: 1rem;
 	}
 
