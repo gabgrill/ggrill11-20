@@ -221,3 +221,6 @@ a:hover, a:active{
 	.page_title_mediaq{
 		opacity: 1;
 	}
+	.thumb_option{
+		padding: .5rem;
+	}
