@@ -202,7 +202,8 @@ a:hover, a:active{
 	}
 	.image_object{
 		width: 100%;
-		max-height: calc(100% - 6rem);
+		height: calc(100% - 6rem);
+		object-fit: cover;
 	}
 	.about_link{
 		height: 2rem;
