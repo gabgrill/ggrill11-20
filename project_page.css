@@ -244,6 +244,9 @@ h1{
 	.name_title{
 		width: 20rem;
 	}
+	.image_container{
+		height: 60vh;
+	}
 	body{
 		margin-bottom: 10rem;
 	}
