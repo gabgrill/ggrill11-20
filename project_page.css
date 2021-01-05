@@ -200,7 +200,7 @@ h1{
 		display: block;
 		top: 0;
 		transform: translate(0, 0);
-	  	left: 25%;
+	  	left: 20%;
 	  	margin: 1rem;
 		z-index: 100;
 	}
@@ -213,7 +213,7 @@ h1{
 		display: block;
 		top: 0;
 		transform: translate(0, 0);
-	  	right: 25%;
+	  	right: 20%;
 	  	margin: 1rem;
 		z-index: 100;
 	}
@@ -222,7 +222,7 @@ h1{
 	}
 	.page_label{
 		font-size: 14px;
-		padding: 0;
+		padding: .25rem;
 		line-height: 2rem;
 	}
 
