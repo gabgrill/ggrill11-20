@@ -233,9 +233,11 @@ h1{
 }
 @media (max-width: 480px){
 	.left_arrow_container{
-		left: 10%;
+		left: 16%;
 	}
 	.right_arrow_container{
-		right: 10%;
+		right: 16%;
 	}
+	.name_title{
+		width: 10rem;
 }
