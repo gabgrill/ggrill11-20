@@ -184,7 +184,7 @@ h1{
 	.right_arrow_container{
 		top: 0;
 		right: 1%;
-		transform: translate(50%, 0);
+		transform: translate(0, 0);
 		height: 1.5rem;
 		width: 1.5rem;
 		display: block;
@@ -193,7 +193,7 @@ h1{
 	.right_arrow_hover{
 		top: 0;
 		right: 1%;
-		transform: translate(50%, 0);
+		transform: translate(0, 0);
 		height: 1.5rem;
 		width: 1.5rem;
 		z-index: 1;
@@ -203,7 +203,7 @@ h1{
 	.left_arrow_container{
 		top: 0;
 		left: 70%;
-		transform: translate(-50%, 0);
+		transform: translate(0, 0);
 		height: 1.5rem;
 		width: 1.5rem;
 		display: block;
@@ -212,7 +212,7 @@ h1{
 	.left_arrow_hover{
 		top: 0;
 		left: 70%;
-		transform: translate(-50%, 0);
+		transform: translate(0, 0);
 		height: 1.5rem;
 		width: 1.5rem;
 		z-index: 1;
@@ -224,7 +224,7 @@ h1{
 		width: 2rem;
 		top: 0;
 	  	left: 10%;
-	  	transform: translate(-50%, 0);
+	  	transform: translate(0, 0);
 	  	margin: 2rem;
 	  	margin-left: 0;
 	  	margin-top: 1rem;
@@ -235,7 +235,7 @@ h1{
 		width: 2rem;
 		top: 0;
 	  	left: 10%;
-	  	transform: translate(-50%, 0);
+	  	transform: translate(0, 0);
 	  	margin: 2rem;
 	  	margin-left: 0;
 	  	margin-top: 1rem;
@@ -253,10 +253,9 @@ h1{
 		height: 2rem;
 		width: 14rem;
 		text-align: center;
-		letter-spacing: -2px;
 		font-size: 25px;
 		top: .75rem;
-	  	left: : 50%;
+	  	left: 50%;
 	  	transform: translate(-50%, 0);
 	  	margin: 1rem;
 	  	margin-top: 0;
