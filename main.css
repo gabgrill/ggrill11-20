@@ -196,7 +196,7 @@ a:hover, a:active{
 		display: inline-block;
 	}
 	.drawing_link{
-		top: 0;
+		bottom: 0;
 		right: 1rem;
 		font-size: 20px;
 	}
