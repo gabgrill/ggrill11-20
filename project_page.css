@@ -183,7 +183,7 @@ h1{
 	}
 	.right_arrow_container{
 		top: 0;
-		right: 10%;
+		right: 1%;
 		transform: translate(50%, 0);
 		height: 1rem;
 		width: 1rem;
@@ -191,7 +191,7 @@ h1{
 
 	.right_arrow_hover{
 		top: 0;
-		right: 10%;
+		right: 1%;
 		transform: translate(50%, 0);
 		height: 1rem;
 		width: 1rem;
@@ -200,7 +200,7 @@ h1{
 	}
 	.left_arrow_container{
 		top: 0;
-		left: 65%;
+		left: 60%;
 		transform: translate(-50%, 0);
 		height: 1rem;
 		width: 1rem;
@@ -208,7 +208,7 @@ h1{
 
 	.left_arrow_hover{
 		top: 0;
-		left: 65%;
+		left: 60%;
 		transform: translate(-50%, 0);
 		height: 1rem;
 		width: 1rem;
