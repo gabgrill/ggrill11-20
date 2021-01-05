@@ -230,6 +230,9 @@ h1{
 		font-size: 16px;
 		line-height: .5rem;
 	}
+	body{
+		margin-bottom: 6rem;
+	}
 }
 @media (max-width: 480px){
 	.left_arrow_container{
