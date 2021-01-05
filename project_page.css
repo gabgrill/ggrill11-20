@@ -187,6 +187,7 @@ h1{
 		transform: translate(50%, 0);
 		height: 1rem;
 		width: 1rem;
+		display: block;
 	}
 
 	.right_arrow_hover{
@@ -197,6 +198,7 @@ h1{
 		width: 1rem;
 		z-index: 1;
 		pointer-events: none;
+		display: block;
 	}
 	.left_arrow_container{
 		top: 0;
@@ -204,6 +206,7 @@ h1{
 		transform: translate(-50%, 0);
 		height: 1rem;
 		width: 1rem;
+		display: block;
 	}
 
 	.left_arrow_hover{
@@ -214,6 +217,7 @@ h1{
 		width: 1rem;
 		z-index: 1;
 		pointer-events: none;
+		display: block;
 	}	
 	.home_nav_container{
 		height: 2rem;
@@ -224,6 +228,7 @@ h1{
 	  	margin: 2rem;
 	  	margin-left: 0;
 	  	margin-top: 1rem;
+	  	display: block;
 	}
 	.home_nav_hover{
 		height: 2rem;
@@ -236,6 +241,7 @@ h1{
 	  	margin-top: 1rem;
 	  	z-index: 1;
 	  	pointer-events: none;
+	  	display: block;
 	}
 	.page_label{
 		font-size: 20px;
@@ -255,5 +261,6 @@ h1{
 	  	margin: 1rem;
 	  	margin-top: 0;
 	  	padding: 0;
+	  	display: block;
 	}
 }
