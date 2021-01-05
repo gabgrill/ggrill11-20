@@ -223,4 +223,5 @@ a:hover, a:active{
 	}
 	.thumb_option{
 		padding: .5rem;
+		padding-left: 0;
 	}
