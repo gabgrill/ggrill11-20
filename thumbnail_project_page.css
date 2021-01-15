@@ -9,6 +9,15 @@ body{
 	font-weight: normal;
 }
 
+a:link, a:visited{
+	color: #000000;
+	text-decoration: none;
+	}
+a:hover, a:active{
+	color: #91d9f4;
+	text-decoration: none;
+	}
+	
 .name_title{
 	text-align: right;
 	font-family: Aileron-UltraLight;
@@ -29,7 +38,7 @@ body{
 	position: static;
 	display: block;
 	font-family: Aileron-UltraLight;
-	letter-spacing: -2px;
+	letter-spacing: 1px;
 	font-size: 30px;
 	padding: 2rem;
 	padding-bottom: 1rem;
@@ -146,11 +155,12 @@ h1{
 .image_container{
 	position: relative;
 	display: inline-block;
-	width: 18rem;
-	height: 16rem;
+	width: 40rem;
+	height: 32rem;
 	padding: 1rem;
 	margin: .25rem;
 	z-index: 1;
+	text-align: center;
 }
 
 .absolute_image{
@@ -158,8 +168,8 @@ h1{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -60%);
-	width: 18rem;
-	height: 13rem;
+	width: 40rem;
+	height: 28rem;
 	object-fit: cover;
 	box-sizing: border-box;
 }
@@ -167,7 +177,7 @@ h1{
 .absolute_text{
 	position: absolute;
 	bottom: 1.5rem;
-	width: 18rem;
+	width: 40rem;
 	box-sizing: border-box;
 	font-size: 15px;
 	left: 1rem;
