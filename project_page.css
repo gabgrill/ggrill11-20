@@ -9,6 +9,15 @@ body{
 	font-weight: normal;
 }
 
+a:link, a:visited{
+	color: #000000;
+	text-decoration: none;
+	}
+a:hover, a:active{
+	color: #91d9f4;
+	text-decoration: none;
+	}
+
 .name_title{
 	text-align: right;
 	font-family: Aileron-UltraLight;
@@ -160,6 +169,20 @@ h1{
 	transform: translate(-50%, 0);
 	margin-top: 0;
 	padding-top: 0;
+}
+
+.back{
+	font-family: Aileron-UltraLight;
+	position: fixed;
+	top: 2rem;
+  	left: 6.5rem;
+  	margin: 1rem;
+  	margin-left: 2rem;
+  	margin-top: 0;
+  	padding: 1rem;
+	z-index: 100;
+	letter-spacing: -2px;
+	font-size: 25px;
 }
 
 @media (max-width: 885px){
