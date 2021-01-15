@@ -105,6 +105,16 @@ a:hover, a:active{
 .home_nav_hover:hover, .home_nav_hover:active{
 	opacity: 1;
 }
+.landing_img{
+	position: relative;
+	display: inline-block;
+	width: 70rem;
+	max-height: 85vh;
+	padding: 1rem;
+	margin: .25rem;
+	z-index: 1;
+	margin-bottom: 2rem;
+}
 
 .image_container{
 	position: relative;
@@ -160,7 +170,7 @@ a:hover, a:active{
 	letter-spacing: -1px;
 	font-size: 30px;
 	padding: 2rem;
-	padding-bottom: 3rem;
+	padding-bottom: 2rem;
 	top: 1.5rem;
 	text-align: center;
 	z-index: 1;
